@@ -1,0 +1,66 @@
+body {
+  background-color: lightgray;
+}
+
+hr.thickline {
+  background-color: black;
+  width: 40%;
+  margin-left: 0;
+  height: 6px;
+  border-top: 1px solid black;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.collection span {
+  color: darkslategrey;
+  font-size: 18px;
+  background-color: none;
+  padding-left: 5px;
+}
+.card {
+  border: none;
+}
+
+.parallex {
+  background: url(https://c4.wallpaperflare.com/wallpaper/263/922/433/shoes-jumpman-wallpaper-preview.jpg)
+    no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+parallel h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+parallel button:hover {
+  background-color: white;
+  color: yellowgreen;
+  transition: 0.3s;
+}
+
+.contact input {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: gray;
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 0px 2px 21px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 21px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 21px -8px rgba(0, 0, 0, 0.75);
+}
